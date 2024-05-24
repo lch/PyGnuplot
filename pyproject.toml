@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyGnuplot"
+version = "0.12.3"
+license = { text = "MIT" }
+authors = [{ name = "Ben Schneider" }]
+keywords = ["gnuplot", "plot"]
+classifiers = [
+	"Topic :: Scientific/Engineering",
+	"License :: OSI Approved :: MIT License",
+	"Programming Language :: Python :: 2.6",
+	"Programming Language :: Python :: 2.7",
+	"Programming Language :: Python :: 3.5",
+	"Programming Language :: Python :: 3.6",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Development Status :: 4 - Beta",
+]
+description = "Python Gnuplot wrapper"
+readme = { file = "README.rst", content-type = "text/x-rst" }
+
+[project.urls]
+homepage = "https://github.com/benschneider/PyGnuplot"
+repository = "https://github.com/benschneider/PyGnuplot.git"
+
+
+[project.optional-dependencies]
+dev = ["numpy"]
