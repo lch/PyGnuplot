@@ -6,7 +6,6 @@ setup.cfg
 .ropeproject
 build/
 dist/
-tests/
 adons/
 PyGnuplot.egg-info/
 Pipfile
