@@ -41,7 +41,7 @@ ON_POSIX = 'posix' in sys.builtin_module_names
 
 
 class gp(object):
-    """PyGnuplot object figure
+    r"""PyGnuplot object figure
     example:
         f1 = gp(r"C:\Program Files\gnuplot\bin\gnuplot.exe")
         pi = f1.a('print pi')
